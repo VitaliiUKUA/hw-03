@@ -1,0 +1,374 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--color-slate);
+  background-color: var(--color-white);
+}
+/* 
+|======================================================
+|=== ---   COMPONENTS
+|====================================================== 
+*/
+/* 
+|======================================================
+|=== ---   /COMPONENTS
+|====================================================== 
+*/
+
+/* 
+|======================================================
+|=== ---   HEADER STYLES
+|====================================================== 
+*/
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-web-iris {
+  color: var(--color-iris);
+}
+
+.logo-studio-navyblue {
+  color: var(--color-navy-blue);
+}
+
+.all-capital-letters {
+  text-transform: uppercase;
+}
+
+.first-capital-letters {
+  text-transform: capitalize;
+}
+
+.small-letter {
+  text-transform: lowercase;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--color-ocean);
+}
+
+.contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.contact-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--color-ocean);
+}
+
+/* 
+|======================================================
+|=== ---   HEADER STYLES
+|====================================================== 
+*/
+
+/*
+|======================================================
+|=== ---   HERO SECTION
+|======================================================
+*/
+
+.hero {
+  background-color: var(--color-navy-blue-modal);
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+
+.modal-btn {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-white);
+
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+
+  /* position: absolute; */
+  /* width: 169px;
+  height: 56px;
+  left: 636px; */
+  top: 428px;
+  background: var(--color-iris);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: var(--color-ocean);
+}
+
+/*
+|=====================================================
+|=== ---   /HERO SECTION
+|======================================================
+*/
+/*
+|======================================================
+|=== ---   FEATURE SECTION
+|======================================================
+*/
+
+.heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.features-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+/*
+|======================================================
+|=== ---   /FEATURE SECTION
+|======================================================
+*/
+
+/*
+|======================================================
+|=== ---   WE DOING SECTION
+|======================================================
+*/
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+}
+
+/*
+|======================================================
+|=== ---   /WE DOING SECTION
+|======================================================
+*/
+
+.we-doing {
+  background-color: var(--color-cloud);
+}
+
+.we-doing-list {
+  background-color: var(--color-white);
+}
+
+/*
+|======================================================
+|=== ---   OUR TEAM SECTION
+|======================================================
+*/
+
+.our-team-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.our-team-section {
+  background-color: var(--color-cloud);
+}
+
+.our-team-list {
+  background-color: var(--color-white);
+}
+
+.our-team-item {
+  background-color: var(--color-white);
+}
+
+/*
+|======================================================
+|=== ---   /OUR TEAM SECTION
+|======================================================
+
+
+/*
+|======================================================
+|=== ---   FOOTER
+|======================================================
+*/
+
+.logo-studio-cloud {
+  color: var(--color-cloud);
+}
+
+.footer-slogan {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* color: var(--color-cloud); */
+}
+
+/*
+|======================================================
+|=== ---   /FOOTER
+|======================================================
+*/
+
+/*
+|======================================================
+|=== ---   PORTFOLIO
+|======================================================
+*/
+
+/*
+|======================================================
+|=== ---   FILTERS SECTION
+|======================================================
+*/
+
+.modal-btn-portfolio {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+
+  cursor: pointer;
+
+  /* Auto layout */
+
+  /* display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+
+width: 116px;
+height: 48px; */
+
+  /* CLOUD */
+
+  background: var(--color-cloud);
+  /* CORNFLOWER */
+
+  border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus {
+  color: var(--color-white);
+  background: var(--color-ocean);
+}
+
+.heading-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.portfolio-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+.footer-index,
+.footer-portfolio {
+  background-color: var(--color-navy-blue);
+}
