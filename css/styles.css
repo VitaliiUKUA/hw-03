@@ -131,6 +131,8 @@ address {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid var(--color-cornflower)
+  
 }
 
 .logo {
@@ -178,6 +180,7 @@ address {
 .menu {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc
 }
 
 .menu-item:not(:last-child) {
@@ -263,7 +266,7 @@ address {
   letter-spacing: 0.02em;
   color: var(--color-white);
 
-  width: 496px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -281,12 +284,16 @@ address {
   color: var(--color-white);
   background: var(--color-iris);
 
+  display: block
+  min-width: 169px;
+  height: 56px
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px;
   box-shadow: 0px 4px 4px var(--color-dark);
   border-radius: 4px;
+  border: none
 
   margin-left: auto;
   margin-right: auto;
@@ -316,6 +323,16 @@ address {
   flex-basis: calc(
     (100% - var(--indent) * (var(--items)-1)) / var(--items-two)
   );
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0px;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 .heading {
@@ -367,7 +384,7 @@ address {
   gap: 24px;
 
   padding-top: 0;
-  padding-bottom: 104px;
+  padding-bottom: 120px;
 }
 
 .we-doing-list {
@@ -425,6 +442,10 @@ address {
 
 .our-team-wraper {
   padding-top: 32px;
+  padding-bottom: 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /*
@@ -442,6 +463,7 @@ address {
 .page-footer {
   padding-top: 100px;
   padding-bottom: 100px;
+
 }
 
 .logo-footer {
@@ -451,6 +473,8 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-studio-cloud {
@@ -465,7 +489,7 @@ address {
   letter-spacing: 0.02em;
   color: var(--color-cloud);
 
-  margin-top: 16px;
+  /* margin-top: 16px; */
 }
 
 /*
@@ -532,6 +556,7 @@ height: 48px; */
 
 .filters {
   padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .filters-list {
