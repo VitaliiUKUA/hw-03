@@ -529,33 +529,21 @@ address {
   font-size: 16px;
   line-height: 1.5;
 
-  /* display: flex; */
+  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--color-iris);
 
-  /* Auto layout */
-
-  /* display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 24px;
-
-width: 116px;
-height: 48px; */
-
-  /* CLOUD */
-
   background: var(--color-cloud);
-  /* CORNFLOWER */
-
+  
   border: 1px solid var(--color-cornflower);
   border-radius: 4px;
 
-  /* Inside auto layout */
-
+  padding-top: 12px;
+  padding-bottom: 12px; 
+  padding-left: 24px; 
+  padding-right: 24px;
   flex: none;
   order: 1;
   flex-grow: 0;
