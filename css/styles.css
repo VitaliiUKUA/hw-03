@@ -331,7 +331,6 @@ address {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -565,7 +564,7 @@ height: 48px; */
 
 .filters {
   padding-top: 96px;
-  padding-bottom: 120px;
+  padding-bottom: 72px;
 }
 
 .filters-list {
@@ -592,8 +591,13 @@ height: 48px; */
 |======================================================
 */
 
+.row-pictures{
+  padding-bottom: 120px;
+}
+
 .row-list {
   display: flex;
+  
 }
 
 .heading-portfolio {
@@ -616,6 +620,7 @@ height: 48px; */
   color: var(--color-slate);
 
   padding-left: 16px;
+  margin-bottom: 32px;
 }
 .footer-index,
 .footer-portfolio {
