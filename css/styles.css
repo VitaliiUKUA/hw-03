@@ -413,6 +413,10 @@ address {
   border-radius: 0px 0px 4px 4px; 
 }
 
+.our-team-img {
+  border-radius: 0px 0px 4px 4px; 
+}
+
 .our-team-list {
   background-color: var(--color-white);
 
