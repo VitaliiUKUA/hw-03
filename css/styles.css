@@ -444,8 +444,8 @@ address {
 
 .our-team-wraper {
   padding-top: 32px;
-  padding-bottom: 32px; 
-  padding-left: 16px; 
+  padding-bottom: 32px;
+  padding-left: 16px;
   padding-right: 16px;
   background: #ffffff;
 
@@ -573,7 +573,7 @@ height: 48px; */
   justify-content: center;
   align-items: center;
   padding: 12px 24px;
-  margin-bottom: 72px; 
+  margin-bottom: 72px;
   gap: 24px;
 }
 
@@ -624,7 +624,6 @@ height: 48px; */
   );
 }
 
-
 /*
 |======================================================
 |=== ---   ///FILTERS SECTION
@@ -637,6 +636,6 @@ height: 48px; */
   <div class="container">
     <h1 class="visually-hidden">row</h1> */
 
-    /* .row-pictures{
+/* .row-pictures{
       padding-bottom: 120px;
     } */
