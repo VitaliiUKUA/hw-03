@@ -410,6 +410,7 @@ address {
 
 .our-team-section {
   background-color: var(--color-cloud);
+  border-radius: 0px 0px 4px 4px; 
 }
 
 .our-team-list {
