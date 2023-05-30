@@ -560,11 +560,12 @@ height: 48px; */
 .modal-btn-portfolio:focus {
   color: var(--color-white);
   background: var(--color-ocean);
+  border: 1px solid transparent;
 }
 
 .filters {
   padding-top: 96px;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
 }
 
 .filters-list {
@@ -572,6 +573,8 @@ height: 48px; */
   justify-content: center;
   align-items: center;
   padding: 12px 24px;
+  margin-bottom: 72px; 
+  gap: 24px;
 }
 
 .filters-item {
@@ -580,24 +583,12 @@ height: 48px; */
   display: flex;
 }
 
-/*
-|======================================================
-|=== ---   ///FILTERS SECTION
-|======================================================
-*/
-/*
-|======================================================
-|=== ---   ROW SECTION
-|======================================================
-*/
-
-.row-pictures{
-  padding-bottom: 120px;
-}
-
 .row-list {
   display: flex;
-  
+}
+
+.row-item:non(:nth-child(3n)) {
+  margin-right: 24px;
 }
 
 .heading-portfolio {
@@ -632,3 +623,20 @@ height: 48px; */
     (100% - var(--indent) * (var(--items)-1)) / var(--items-three)
   );
 }
+
+
+/*
+|======================================================
+|=== ---   ///FILTERS SECTION
+|======================================================
+*/
+
+/* </section>
+<!-- Row section -->
+<section class="row-pictures">
+  <div class="container">
+    <h1 class="visually-hidden">row</h1> */
+
+    /* .row-pictures{
+      padding-bottom: 120px;
+    } */
