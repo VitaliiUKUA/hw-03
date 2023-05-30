@@ -591,6 +591,12 @@ height: 48px; */
   margin-right: 24px;
 }
 
+.card-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .heading-portfolio {
   font-weight: 500;
   font-size: 20px;
@@ -598,8 +604,8 @@ height: 48px; */
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 
-  padding-top: 32px;
-  padding-left: 16px;
+  /* padding-top: 32px;
+  padding-left: 16px; */
   margin-bottom: 8px;
 }
 
@@ -636,7 +642,6 @@ height: 48px; */
   <div class="container">
     <h1 class="visually-hidden">row</h1> */
 
-    
 /* .row-pictures{
       padding-bottom: 120px;
     } */
