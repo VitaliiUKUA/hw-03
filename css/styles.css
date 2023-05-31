@@ -418,6 +418,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   gap: var(--indent);
+  border-radius: 0px 0px 4px 4px; 
 }
 
 .our-team-item {
@@ -440,9 +441,6 @@ address {
   color: var(--color-slate);
 }
 
-.daf{
-  border-radius: 0px 0px 4px 4px; 
-}
 .our-team-wraper {
   padding-top: 32px;
   padding-bottom: 32px;
